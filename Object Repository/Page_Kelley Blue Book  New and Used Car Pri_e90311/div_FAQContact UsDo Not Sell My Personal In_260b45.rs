@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_FAQContact UsDo Not Sell My Personal In_260b45</name>
+   <tag></tag>
+   <elementGuidId>4a2f275d-3181-4a46-b30b-2d1fa1e2e6e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='globalFooter']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1vrab63</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=&quot;FAQ|Contact Us|Do Not Sell My Personal Information|Do Not Process My Sensitive I&quot;i >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c6049a6d-e2ab-42c0-85b3-8e682b56d510</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1vrab63</value>
+      <webElementGuid>35917ec0-3fa7-4822-8f2f-4f0b6f91e97f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>FAQ|Contact Us|Do Not Sell My Personal Information|Do Not Process My Sensitive Information|About Us|Careers|Corporate|Advertising|Media|Site Map|KBB Brazil|KBB CanadaFacebookTwitterRSSLinkedInYouTube© 1995-2024 Kelley Blue Book Co.®, Inc. All rights reserved.Copyrights &amp; Trademarks|Vehicle Photos © Evox Images|Terms of Service|Privacy Policy|Linking Policy|Accessibility Statement|Manage Cookies</value>
+      <webElementGuid>8b26523f-b1eb-490d-9140-44ecc77c2af9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;globalFooter&quot;)/div[@class=&quot;css-1vrab63&quot;]</value>
+      <webElementGuid>3b83bf9d-9e07-4796-a0ba-676877d84b03</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='globalFooter']/div</value>
+      <webElementGuid>1d0d7319-dd7c-4b3c-b188-ec62dd955eab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Browse cars for sale nationwide'])[1]/following::div[2]</value>
+      <webElementGuid>a45b6242-e3d4-4df8-9a9e-3586e8beff2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cars for sale near Los Angeles, CA'])[1]/following::div[2]</value>
+      <webElementGuid>c9ca081f-ac72-41b8-b3cb-2a67050cf980</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>afa34aed-4be2-4011-8576-6a893d713e81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'FAQ|Contact Us|Do Not Sell My Personal Information|Do Not Process My Sensitive Information|About Us|Careers|Corporate|Advertising|Media|Site Map|KBB Brazil|KBB CanadaFacebookTwitterRSSLinkedInYouTube© 1995-2024 Kelley Blue Book Co.®, Inc. All rights reserved.Copyrights &amp; Trademarks|Vehicle Photos © Evox Images|Terms of Service|Privacy Policy|Linking Policy|Accessibility Statement|Manage Cookies' or . = 'FAQ|Contact Us|Do Not Sell My Personal Information|Do Not Process My Sensitive Information|About Us|Careers|Corporate|Advertising|Media|Site Map|KBB Brazil|KBB CanadaFacebookTwitterRSSLinkedInYouTube© 1995-2024 Kelley Blue Book Co.®, Inc. All rights reserved.Copyrights &amp; Trademarks|Vehicle Photos © Evox Images|Terms of Service|Privacy Policy|Linking Policy|Accessibility Statement|Manage Cookies')]</value>
+      <webElementGuid>77600831-561d-421c-a0a2-489e553f9163</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

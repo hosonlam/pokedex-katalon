@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Kelley Knows CarsFrom values to repairs_2ed6c9</name>
+   <tag></tag>
+   <elementGuidId>eb890491-19a5-4538-bc5b-281ccd30d426</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='superheroSection']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.emdpnlj4.css-18eyk9p.e11el9oi0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Kelley Knows CarsFrom values to repairs, we've got it all.Price New/UsedMy Car's&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8c5d8587-ac52-42dc-95ea-e0a617678e01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-lean-auto</name>
+      <type>Main</type>
+      <value>green-monster-0</value>
+      <webElementGuid>8b535020-ffac-4577-802f-fafaf4de34cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>emdpnlj4 css-18eyk9p e11el9oi0</value>
+      <webElementGuid>d2c764fb-52c3-4ecb-a2f8-7d94026ed7a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kelley Knows CarsFrom values to repairs, we've got it all.Price New/UsedMy Car's ValueShop Cars for Sale</value>
+      <webElementGuid>9d2278a1-8da3-418b-af7d-85b29bd64bb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;superheroSection&quot;)/div[@class=&quot;emdpnlj4 css-18eyk9p e11el9oi0&quot;]</value>
+      <webElementGuid>2430670e-1942-46e3-9f3b-931c52694dff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='superheroSection']/div</value>
+      <webElementGuid>863e1e22-2554-4bb1-a8cd-a1d12397d697</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recalls'])[1]/following::div[4]</value>
+      <webElementGuid>b10c5857-7f46-42f9-bea9-922509101e0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Extended Warranty'])[1]/following::div[4]</value>
+      <webElementGuid>51704864-9a8f-46d1-9398-030f4d9e1c85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div</value>
+      <webElementGuid>f56fb2b7-2ad7-486c-be55-06a29892d29b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Kelley Knows CarsFrom values to repairs, we&quot; , &quot;'&quot; , &quot;ve got it all.Price New/UsedMy Car&quot; , &quot;'&quot; , &quot;s ValueShop Cars for Sale&quot;) or . = concat(&quot;Kelley Knows CarsFrom values to repairs, we&quot; , &quot;'&quot; , &quot;ve got it all.Price New/UsedMy Car&quot; , &quot;'&quot; , &quot;s ValueShop Cars for Sale&quot;))]</value>
+      <webElementGuid>e832dab0-5063-48f1-8703-b465e4f527e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

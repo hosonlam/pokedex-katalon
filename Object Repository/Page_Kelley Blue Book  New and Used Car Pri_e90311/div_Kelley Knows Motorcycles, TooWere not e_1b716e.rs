@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Kelley Knows Motorcycles, TooWere not e_1b716e</name>
+   <tag></tag>
+   <elementGuidId>a37c938c-c5e7-43d4-be72-ebb0ae3cbcf4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content']/div[8]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1jt4wcd.e1ngkdb70</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.css-1jt4wcd</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ded18e82-ada1-4871-9f51-814b6437df09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1jt4wcd e1ngkdb70</value>
+      <webElementGuid>7ff8ce07-74bf-41e7-84e7-0c63bfa8bd9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kelley Knows Motorcycles, TooWe're not exclusive to cars. We also have Blue Book Values for the things you ride.  See All CategoriesStandardSport BikeTouringScooterTrail Dirt BikeATV Sport</value>
+      <webElementGuid>a525e93c-843b-489c-8faa-1b8b2a3f5794</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;css-8fkn3u e1ngkdb71&quot;]/div[@class=&quot;css-1jt4wcd e1ngkdb70&quot;]</value>
+      <webElementGuid>1541dfc6-8c98-4a9a-98a0-5bb4cb3e16c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content']/div[8]/div</value>
+      <webElementGuid>f8589477-9ad5-47f6-a156-083d48c5da96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Watch the video'])[1]/following::div[2]</value>
+      <webElementGuid>28a54679-714c-42de-a0e2-716791e7529f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save time by starting your purchase and paperwork online.'])[1]/following::div[3]</value>
+      <webElementGuid>cc4f83b3-dd26-4633-939b-da191af90918</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div</value>
+      <webElementGuid>58ea381c-5862-4f3c-bce5-23e4d85e3a0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Kelley Knows Motorcycles, TooWe&quot; , &quot;'&quot; , &quot;re not exclusive to cars. We also have Blue Book Values for the things you ride.  See All CategoriesStandardSport BikeTouringScooterTrail Dirt BikeATV Sport&quot;) or . = concat(&quot;Kelley Knows Motorcycles, TooWe&quot; , &quot;'&quot; , &quot;re not exclusive to cars. We also have Blue Book Values for the things you ride.  See All CategoriesStandardSport BikeTouringScooterTrail Dirt BikeATV Sport&quot;))]</value>
+      <webElementGuid>f11f35e6-7dc2-4a81-a3b1-0d816504a902</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

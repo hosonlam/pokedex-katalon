@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Shop Best CarsSponsored2024 Honda Prolo_b0e4cf</name>
+   <tag></tag>
+   <elementGuidId>c31a5f77-3d9b-4990-9862-3edc51449027</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='contentFor_kbbAdsBestCarsTile']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-w44s3c.e1l0ytpk0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#contentFor_kbbAdsBestCarsTile div >> internal:has-text=&quot;Shop Best CarsSponsored2024 Honda PrologueBest EVsBest CarsBest SUVsBest TrucksB&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e6d85a04-3e4a-4fdf-b362-670aa8442387</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>max</name>
+      <type>Main</type>
+      <value>12</value>
+      <webElementGuid>231eea3d-7850-44e0-9ace-74f4da10d77b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-w44s3c e1l0ytpk0</value>
+      <webElementGuid>041f11a3-6634-4f9e-8d74-36c81301b3b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shop Best CarsSponsored2024 Honda PrologueBest EVsBest CarsBest SUVsBest TrucksBest MinivansBest HybridsBest Compact SUVsBest Midsize CarsBest Midsize SUVsBest Fullsize CarsBest Fullsize SUVsBest Fullsize TrucksMore StandoutsBest Compact SUVsBest Midsize CarsBest Midsize SUVsBest Fullsize CarsBest Fullsize SUVsBest Fullsize Trucks</value>
+      <webElementGuid>56bc0a71-3894-4f8a-8b94-6db7e30fa9cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contentFor_kbbAdsBestCarsTile&quot;)/div[@class=&quot;css-1xa55ag eaivgmg0&quot;]/div[@class=&quot;css-w44s3c e1l0ytpk0&quot;]</value>
+      <webElementGuid>0d2233e5-65ed-4c3e-bba4-094fd16e7cb0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='contentFor_kbbAdsBestCarsTile']/div/div</value>
+      <webElementGuid>0b7e9c46-e54a-461a-877f-49ca4cc94640</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check My Score'])[1]/following::div[12]</value>
+      <webElementGuid>079dd7a4-5ed8-4ab5-b4ed-29d6690a7eb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Know Your Score'])[1]/following::div[13]</value>
+      <webElementGuid>b79eec9a-d6dc-4866-ba46-461a0116df33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div[2]/div/div</value>
+      <webElementGuid>3e8774e8-1aad-4736-a3cc-f08b66d8ce26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Shop Best CarsSponsored2024 Honda PrologueBest EVsBest CarsBest SUVsBest TrucksBest MinivansBest HybridsBest Compact SUVsBest Midsize CarsBest Midsize SUVsBest Fullsize CarsBest Fullsize SUVsBest Fullsize TrucksMore StandoutsBest Compact SUVsBest Midsize CarsBest Midsize SUVsBest Fullsize CarsBest Fullsize SUVsBest Fullsize Trucks' or . = 'Shop Best CarsSponsored2024 Honda PrologueBest EVsBest CarsBest SUVsBest TrucksBest MinivansBest HybridsBest Compact SUVsBest Midsize CarsBest Midsize SUVsBest Fullsize CarsBest Fullsize SUVsBest Fullsize TrucksMore StandoutsBest Compact SUVsBest Midsize CarsBest Midsize SUVsBest Fullsize CarsBest Fullsize SUVsBest Fullsize Trucks')]</value>
+      <webElementGuid>6c38ed41-f804-4cac-89f9-225c9f192198</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
