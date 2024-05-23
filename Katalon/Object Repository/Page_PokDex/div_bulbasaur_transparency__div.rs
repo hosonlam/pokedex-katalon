@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_bulbasaur_transparency__div</name>
+   <tag></tag>
+   <elementGuidId>153b9316-0f6c-4ea2-a1c7-9b7634a0b3fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='bulbasaur'])[3]/following::div[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(2) > div > div > .evolution__img__div > .transparency__div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c20e8617-eb11-45e0-93b3-44e19d1e68a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>transparency__div</value>
+      <webElementGuid>95fc3636-f352-4456-86b6-f2d9e0166e1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;MuiDialog-root dialog__bg noselect&quot;]/div[@class=&quot;MuiDialog-container MuiDialog-scrollPaper&quot;]/div[@class=&quot;MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthMd MuiDialog-paperFullWidth MuiPaper-elevation24 MuiPaper-rounded&quot;]/div[@class=&quot;MuiDialogContent-root jss4 dialog__content&quot;]/div[@class=&quot;info__container&quot;]/div[@class=&quot;info__container__data&quot;]/div[@class=&quot;right__box&quot;]/div[4]/div[@class=&quot;evolution__box&quot;]/div[@class=&quot;evolution__sub__box&quot;]/div[1]/div[1]/div[@class=&quot;evolution__img__div&quot;]/div[@class=&quot;transparency__div&quot;]</value>
+      <webElementGuid>a44b5e34-2c3d-45a1-be5e-723bddc25ab6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='bulbasaur'])[3]/following::div[5]</value>
+      <webElementGuid>b2457919-260a-4984-a4ce-3f882ec97ad7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Evolution'])[1]/following::div[12]</value>
+      <webElementGuid>3f87a1e2-cf1a-47f6-9af0-2c7154fc8c29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ivysaur'])[2]/preceding::div[1]</value>
+      <webElementGuid>7b0b1e11-885c-40a6-9c4d-fe13ca3ad719</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='venusaur'])[2]/preceding::div[5]</value>
+      <webElementGuid>bd84f265-b6c3-46c7-8a29-1c35b079fbac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/div</value>
+      <webElementGuid>c4cd98ed-20d4-4811-9db4-45a033bb74ce</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
