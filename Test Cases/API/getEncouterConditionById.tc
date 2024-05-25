@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>getEncouterConditionById</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea4cc76c-08fb-4d3d-ad9e-e1c43d72cd4c</testCaseGuid>
+</TestCaseEntity>

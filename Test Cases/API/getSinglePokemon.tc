@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>getSinglePokemon</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5a6b12b-0349-41b4-af8f-35ea58d2f155</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f4c41b8e-05c7-440f-93ad-3c48deaf70c0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>f4c41b8e-05c7-440f-93ad-3c48deaf70c0</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>

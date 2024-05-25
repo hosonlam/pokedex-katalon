@@ -1,0 +1,228 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "attributes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "url"
+        ]
+      }
+    },
+    "baby_trigger_for": {},
+    "category": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "url"
+      ]
+    },
+    "cost": {
+      "type": "number"
+    },
+    "effect_entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "effect": {
+            "type": "string"
+          },
+          "language": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "url"
+            ]
+          },
+          "short_effect": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "effect",
+          "language",
+          "short_effect"
+        ]
+      }
+    },
+    "flavor_text_entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "url"
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "version_group": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "url"
+            ]
+          }
+        },
+        "required": [
+          "language",
+          "text",
+          "version_group"
+        ]
+      }
+    },
+    "fling_effect": {},
+    "fling_power": {},
+    "game_indices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "game_index": {
+            "type": "number"
+          },
+          "generation": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "url"
+            ]
+          }
+        },
+        "required": [
+          "game_index",
+          "generation"
+        ]
+      }
+    },
+    "held_by_pokemon": {
+      "type": "array",
+      "items": {}
+    },
+    "id": {
+      "type": "number"
+    },
+    "machines": {
+      "type": "array",
+      "items": {}
+    },
+    "name": {
+      "type": "string"
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "url"
+            ]
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "language",
+          "name"
+        ]
+      }
+    },
+    "sprites": {
+      "type": "object",
+      "properties": {
+        "default": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "default"
+      ]
+    }
+  },
+  "required": [
+    "attributes",
+    "baby_trigger_for",
+    "category",
+    "cost",
+    "effect_entries",
+    "flavor_text_entries",
+    "fling_effect",
+    "fling_power",
+    "game_indices",
+    "held_by_pokemon",
+    "id",
+    "machines",
+    "name",
+    "names",
+    "sprites"
+  ]
+}
