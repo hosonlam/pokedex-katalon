@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_RegionKanto(1-151)Johto(152-251)Hoenn(2_ce6932</name>
+   <tag></tag>
+   <elementGuidId>01c42c8b-0508-4a5e-8b1f-074277a994c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.filter__items</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;RegionKanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e6cb9b77-c0f7-4f0c-8bcc-9a7dc1e7284c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>filter__items</value>
+      <webElementGuid>bdbbf601-54cb-41e9-83c0-f6bc636be235</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>RegionKanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)</value>
+      <webElementGuid>68ebb05f-df5f-45db-bed6-374c744a5dbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app__container&quot;]/div[@class=&quot;filter__container noselect&quot;]/div[@class=&quot;filter__items&quot;]</value>
+      <webElementGuid>4c9dba4b-5ac1-4323-84b5-cf8dd853c529</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div</value>
+      <webElementGuid>2ea9feac-e329-49e3-b12e-809c3bae239e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/preceding::div[2]</value>
+      <webElementGuid>237e2d37-427b-49cc-aa61-73ffb69bb818</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div</value>
+      <webElementGuid>7d74f815-2243-454b-a18e-75ec51ab6200</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'RegionKanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)' or . = 'RegionKanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)')]</value>
+      <webElementGuid>3fbb36e1-f098-4a0a-b131-5118ecf55020</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

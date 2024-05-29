@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_RegionKanto(1-151)Johto(152-251)Hoenn(2_fef05e</name>
+   <name>div_RegionKanto(1-151)Johto(152-251)Hoenn(2_fef05e (1)</name>
    <tag></tag>
-   <elementGuidId>e521909f-9bfe-4611-b08b-e595dcc6c3b6</elementGuidId>
+   <elementGuidId>f418e143-3f27-4a8b-8d09-dd769ac31551</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[2]</value>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f112d21a-7900-433a-a892-a262fc4e79b6</webElementGuid>
+      <webElementGuid>a2ad28f1-0ce3-4a12-824a-94322890cd46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +37,15 @@
       <name>class</name>
       <type>Main</type>
       <value>app__container</value>
-      <webElementGuid>04090ab2-8d4a-4348-a11d-51c55f457695</webElementGuid>
+      <webElementGuid>cebaac95-da58-4690-b2ef-e86636ac5610</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>RegionKanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)Typeall typesgrassbugdarkdragonelectricfairyfightingfireflyingghostgroundicenormalpoisonpsychicrocksteelwaterSort byIDNameSearch#025pikachu#026raichu#081magnemite#082magneton#100voltorb#101electrode#125electabuzz#135jolteon#145zapdosBuilt using PokéAPI, React and Material-UI.</value>
-      <webElementGuid>921c1316-ccfe-4cf0-bcbd-6802b6d27655</webElementGuid>
+      <value>RegionKanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)Typeall typesgrassbugdarkdragonelectricfairyfightingfireflyingghostgroundicenormalpoisonpsychicrocksteelwaterSort byIDNameSearch#001bulbasaur#002ivysaur#003venusaur#004charmander#005charmeleon#006charizard#007squirtle#008wartortle#009blastoise#010caterpie#011metapod#012butterfree#013weedle#014kakuna#015beedrill#016pidgey#017pidgeotto#018pidgeot#019rattata#020raticate#021spearow#022fearow#023ekans#024arbok#025pikachu#026raichu#027sandshrew#028sandslash#029nidoran-f#030nidorina#031nidoqueen#032nidoran-m#033nidorino#034nidoking#035clefairy#036clefable#037vulpix#038ninetales#039jigglypuff#040wigglytuff#041zubat#042golbat#043oddish#044gloom#045vileplume#046paras#047parasect#048venonat#049venomoth#050diglett#051dugtrio#052meowth#053persian#054psyduck#055golduck#056mankey#057primeape#058growlithe#059arcanine#060poliwag#061poliwhirl#062poliwrath#063abra#064kadabra#065alakazam#066machop#067machoke#068machamp#069bellsprout#070weepinbell#071victreebel#072tentacool#073tentacruel#074geodude#075graveler#076golem#077ponyta#078rapidash#079slowpoke#080slowbro#081magnemite#082magneton#083farfetchd#084doduo#085dodrio#086seel#087dewgong#088grimer#089muk#090shellder#091cloyster#092gastly#093haunter#094gengar#095onix#096drowzee#097hypno#098krabby#099kingler#100voltorb#101electrode#102exeggcute#103exeggutor#104cubone#105marowak#106hitmonlee#107hitmonchan#108lickitung#109koffing#110weezing#111rhyhorn#112rhydon#113chansey#114tangela#115kangaskhan#116horsea#117seadra#118goldeen#119seaking#120staryu#121starmie#122mr-mime#123scyther#124jynx#125electabuzz#126magmar#127pinsir#128tauros#129magikarp#130gyarados#131lapras#132ditto#133eevee#134vaporeon#135jolteon#136flareon#137porygon#138omanyte#139omastar#140kabuto#141kabutops#142aerodactyl#143snorlax#144articuno#145zapdos#146moltres#147dratini#148dragonair#149dragonite#150mewtwo#151mewBuilt using PokéAPI, React and Material-UI.</value>
+      <webElementGuid>3878f951-e207-4612-bbe3-0c3f0de486a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;app__container&quot;]</value>
-      <webElementGuid>471db679-61e9-43ae-a9ca-e26cb79bf28a</webElementGuid>
+      <webElementGuid>563587ff-7996-4964-a18b-bc8f80c746dc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]</value>
-      <webElementGuid>660bd3d4-a34e-4448-9608-e580be0a18f8</webElementGuid>
+      <webElementGuid>a6130f54-5315-4298-9647-eec215d4b859</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,15 +69,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]</value>
-      <webElementGuid>578e6439-17f1-4781-9270-a59c6e64b0f3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = 'RegionKanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)Typeall typesgrassbugdarkdragonelectricfairyfightingfireflyingghostgroundicenormalpoisonpsychicrocksteelwaterSort byIDNameSearch#025pikachu#026raichu#081magnemite#082magneton#100voltorb#101electrode#125electabuzz#135jolteon#145zapdosBuilt using PokéAPI, React and Material-UI.' or . = 'RegionKanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)Typeall typesgrassbugdarkdragonelectricfairyfightingfireflyingghostgroundicenormalpoisonpsychicrocksteelwaterSort byIDNameSearch#025pikachu#026raichu#081magnemite#082magneton#100voltorb#101electrode#125electabuzz#135jolteon#145zapdosBuilt using PokéAPI, React and Material-UI.')]</value>
-      <webElementGuid>d41ad025-d2d6-466f-9efb-f49730e86a89</webElementGuid>
+      <webElementGuid>88fa6cf1-8e6d-4890-9734-db5b40a6c960</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +77,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'RegionKanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)Typeall typesgrassbugdarkdragonelectricfairyfightingfireflyingghostgroundicenormalpoisonpsychicrocksteelwaterSort byIDNameSearch#001bulbasaur#002ivysaur#003venusaur#004charmander#005charmeleon#006charizard#007squirtle#008wartortle#009blastoise#010caterpie#011metapod#012butterfree#013weedle#014kakuna#015beedrill#016pidgey#017pidgeotto#018pidgeot#019rattata#020raticate#021spearow#022fearow#023ekans#024arbok#025pikachu#026raichu#027sandshrew#028sandslash#029nidoran-f#030nidorina#031nidoqueen#032nidoran-m#033nidorino#034nidoking#035clefairy#036clefable#037vulpix#038ninetales#039jigglypuff#040wigglytuff#041zubat#042golbat#043oddish#044gloom#045vileplume#046paras#047parasect#048venonat#049venomoth#050diglett#051dugtrio#052meowth#053persian#054psyduck#055golduck#056mankey#057primeape#058growlithe#059arcanine#060poliwag#061poliwhirl#062poliwrath#063abra#064kadabra#065alakazam#066machop#067machoke#068machamp#069bellsprout#070weepinbell#071victreebel#072tentacool#073tentacruel#074geodude#075graveler#076golem#077ponyta#078rapidash#079slowpoke#080slowbro#081magnemite#082magneton#083farfetchd#084doduo#085dodrio#086seel#087dewgong#088grimer#089muk#090shellder#091cloyster#092gastly#093haunter#094gengar#095onix#096drowzee#097hypno#098krabby#099kingler#100voltorb#101electrode#102exeggcute#103exeggutor#104cubone#105marowak#106hitmonlee#107hitmonchan#108lickitung#109koffing#110weezing#111rhyhorn#112rhydon#113chansey#114tangela#115kangaskhan#116horsea#117seadra#118goldeen#119seaking#120staryu#121starmie#122mr-mime#123scyther#124jynx#125electabuzz#126magmar#127pinsir#128tauros#129magikarp#130gyarados#131lapras#132ditto#133eevee#134vaporeon#135jolteon#136flareon#137porygon#138omanyte#139omastar#140kabuto#141kabutops#142aerodactyl#143snorlax#144articuno#145zapdos#146moltres#147dratini#148dragonair#149dragonite#150mewtwo#151mewBuilt using PokéAPI, React and Material-UI.' or . = 'RegionKanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)Typeall typesgrassbugdarkdragonelectricfairyfightingfireflyingghostgroundicenormalpoisonpsychicrocksteelwaterSort byIDNameSearch#001bulbasaur#002ivysaur#003venusaur#004charmander#005charmeleon#006charizard#007squirtle#008wartortle#009blastoise#010caterpie#011metapod#012butterfree#013weedle#014kakuna#015beedrill#016pidgey#017pidgeotto#018pidgeot#019rattata#020raticate#021spearow#022fearow#023ekans#024arbok#025pikachu#026raichu#027sandshrew#028sandslash#029nidoran-f#030nidorina#031nidoqueen#032nidoran-m#033nidorino#034nidoking#035clefairy#036clefable#037vulpix#038ninetales#039jigglypuff#040wigglytuff#041zubat#042golbat#043oddish#044gloom#045vileplume#046paras#047parasect#048venonat#049venomoth#050diglett#051dugtrio#052meowth#053persian#054psyduck#055golduck#056mankey#057primeape#058growlithe#059arcanine#060poliwag#061poliwhirl#062poliwrath#063abra#064kadabra#065alakazam#066machop#067machoke#068machamp#069bellsprout#070weepinbell#071victreebel#072tentacool#073tentacruel#074geodude#075graveler#076golem#077ponyta#078rapidash#079slowpoke#080slowbro#081magnemite#082magneton#083farfetchd#084doduo#085dodrio#086seel#087dewgong#088grimer#089muk#090shellder#091cloyster#092gastly#093haunter#094gengar#095onix#096drowzee#097hypno#098krabby#099kingler#100voltorb#101electrode#102exeggcute#103exeggutor#104cubone#105marowak#106hitmonlee#107hitmonchan#108lickitung#109koffing#110weezing#111rhyhorn#112rhydon#113chansey#114tangela#115kangaskhan#116horsea#117seadra#118goldeen#119seaking#120staryu#121starmie#122mr-mime#123scyther#124jynx#125electabuzz#126magmar#127pinsir#128tauros#129magikarp#130gyarados#131lapras#132ditto#133eevee#134vaporeon#135jolteon#136flareon#137porygon#138omanyte#139omastar#140kabuto#141kabutops#142aerodactyl#143snorlax#144articuno#145zapdos#146moltres#147dratini#148dragonair#149dragonite#150mewtwo#151mewBuilt using PokéAPI, React and Material-UI.')]</value>
-      <webElementGuid>f56c5e2f-0152-49ba-a385-9b12b9e7178e</webElementGuid>
+      <webElementGuid>30740f10-b51b-41ad-bdcd-76faedc31c3d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

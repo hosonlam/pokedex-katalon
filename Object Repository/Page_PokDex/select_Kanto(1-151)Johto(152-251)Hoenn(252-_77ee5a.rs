@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Kanto(1-151)Johto(152-251)Hoenn(252-_77ee5a</name>
+   <tag></tag>
+   <elementGuidId>7b519f35-5d07-4bb2-bbc3-81f0946d5388</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=combobox >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>446b522b-e9e4-4322-9c22-d3505dfd21dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)</value>
+      <webElementGuid>c7806c38-e77e-4cb1-ad05-124080ed98f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app__container&quot;]/div[@class=&quot;filter__container noselect&quot;]/div[@class=&quot;filter__items&quot;]/select[1]</value>
+      <webElementGuid>ddb6ed61-960a-4d5e-b6c9-37339ae6bc9b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div/select</value>
+      <webElementGuid>7eca8761-ed81-4463-98c0-abac294bc678</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Region'])[1]/following::select[1]</value>
+      <webElementGuid>980228e2-ba30-4ff3-b5fd-81b3c55b02ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/preceding::select[1]</value>
+      <webElementGuid>b9014254-b116-41aa-ac03-95b822ab4db2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by'])[1]/preceding::select[2]</value>
+      <webElementGuid>696373b4-1c2c-4bf0-b6b0-7eb691615ebd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>26139a50-60f6-4808-bb82-290ec0385735</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'Kanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)' or . = 'Kanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)')]</value>
+      <webElementGuid>8d502f23-3718-4a74-bba2-77c2ba215f9d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
