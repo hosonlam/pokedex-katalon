@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a</name>
+   <tag></tag>
+   <elementGuidId>16fe721a-1f66-400f-b689-c1bc86dae429</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.elementor-element.elementor-element-544bb719.elementor-widget.elementor-widget-jet-blog-smart-listing > div.elementor-widget-container > div.elementor-jet-blog-smart-listing.jet-blog > div.jet-smart-listing-wrap > div.jet-smart-listing.rows-6.no-featured > div.jet-smart-listing__posts > div.jet-smart-listing__post-wrapper > div.jet-smart-listing__post.has-post-thumb.has-thumb-postion-top > div.jet-smart-listing__post-thumbnail.post-thumbnail-simple > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Gallagher&quot;i] >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>817687dc-55a4-4299-bb3b-46d6d70cc704</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://honkai-builds.com/nhan-vat/gallagher</value>
+      <webElementGuid>617efc98-db43-4feb-a6d9-7e287310e64f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;jet-tabs-content-5692&quot;)/div[@class=&quot;elementor elementor-3619 elementor-location-archive&quot;]/div[@class=&quot;elementor-section-wrap&quot;]/section[@class=&quot;elementor-section elementor-top-section elementor-element elementor-element-7366183d elementor-section-boxed elementor-section-height-default elementor-section-height-default&quot;]/div[@class=&quot;elementor-container elementor-column-gap-default&quot;]/div[@class=&quot;elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2cd92f7&quot;]/div[@class=&quot;elementor-widget-wrap elementor-element-populated&quot;]/div[@class=&quot;elementor-element elementor-element-544bb719 elementor-widget elementor-widget-jet-blog-smart-listing&quot;]/div[@class=&quot;elementor-widget-container&quot;]/div[@class=&quot;elementor-jet-blog-smart-listing jet-blog&quot;]/div[@class=&quot;jet-smart-listing-wrap&quot;]/div[@class=&quot;jet-smart-listing rows-6 no-featured&quot;]/div[@class=&quot;jet-smart-listing__posts&quot;]/div[@class=&quot;jet-smart-listing__post-wrapper&quot;]/div[@class=&quot;jet-smart-listing__post has-post-thumb has-thumb-postion-top&quot;]/div[@class=&quot;jet-smart-listing__post-thumbnail post-thumbnail-simple&quot;]/a[1]</value>
+      <webElementGuid>5ae969c6-828f-4e7f-8a28-f0411fdb1b3b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='jet-tabs-content-5692']/div/div/section/div/div/div/div/div/div/div/div[2]/div/div/div/div/a</value>
+      <webElementGuid>631a72dc-60f6-44c6-9e0e-8fdf2e79d790</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nhà Khai Phá (Bảo Hộ)'])[1]/following::a[1]</value>
+      <webElementGuid>14d48d1e-dcba-46dc-bd0a-52fd9a5dfa17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kafka'])[1]/following::a[3]</value>
+      <webElementGuid>fc0ed41a-9351-4c76-af1b-cdcb3a6c7f3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gallagher'])[2]/preceding::a[1]</value>
+      <webElementGuid>a4540bf7-0ea3-4700-af88-497468938b26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Misha'])[2]/preceding::a[3]</value>
+      <webElementGuid>042fac01-c515-4c0f-8d78-19b28440730f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://honkai-builds.com/nhan-vat/gallagher')])[3]</value>
+      <webElementGuid>9a1360ec-8ce7-4890-8b9b-850c398ffb8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/section/div/div/div/div/div/div/div/div[2]/div/div/div/div/a</value>
+      <webElementGuid>58f79eaf-7fae-4e6a-a436-45f4f310b012</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://honkai-builds.com/nhan-vat/gallagher']</value>
+      <webElementGuid>8d6ce25f-8158-44c2-b525-e5e46d84d853</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

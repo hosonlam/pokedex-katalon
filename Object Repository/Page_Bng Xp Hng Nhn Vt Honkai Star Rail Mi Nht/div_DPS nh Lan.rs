@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_DPS nh Lan</name>
+   <tag></tag>
+   <elementGuidId>58dec90e-b25b-4385-a0aa-cf5142659561</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='jet-tabs-control-1423']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#jet-tabs-control-1423 > div.jet-tabs__control-inner</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=tab[name=&quot;DPS Đánh Lan&quot;i] >> div >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3cabfafd-0d2a-427a-820c-44c3fcb8f365</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jet-tabs__control-inner</value>
+      <webElementGuid>c426122d-a7ad-4507-9957-d199f9bf127f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DPS Đánh Lan</value>
+      <webElementGuid>60466009-4ff8-4329-b9a0-d1ffc5babb4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;jet-tabs-control-1423&quot;)/div[@class=&quot;jet-tabs__control-inner&quot;]</value>
+      <webElementGuid>4bea35c5-551f-45ab-acea-647984792258</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='jet-tabs-control-1423']/div</value>
+      <webElementGuid>4f67e09a-eed7-4335-ae19-f7a9a810f31e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DPS Đánh Đơn'])[1]/following::div[2]</value>
+      <webElementGuid>10466eb0-1329-4a11-aa45-d518fcc1ab59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tổng Thể'])[1]/following::div[5]</value>
+      <webElementGuid>16dc3581-7dcf-4f96-b894-5e42ca5ff923</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hỗ Trợ'])[1]/preceding::div[2]</value>
+      <webElementGuid>a8c28a50-f524-4189-a46b-dc45adcba5c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[3]/div</value>
+      <webElementGuid>34936891-f603-44e1-8e0e-724bdc2aedd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'DPS Đánh Lan' or . = 'DPS Đánh Lan')]</value>
+      <webElementGuid>4f8cffa2-fb34-4b45-be40-4bc78bbbd6a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
