@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://pokedex-react-mui.netlify.app/')
 
 WebUI.click(findTestObject('Object Repository/Page_PokDex/label'))
 
-WebUI.takeScreenshotAsCheckpoint('current_viewport')
+WebUI.takeScreenshotAsCheckpoint('current_dark_viewport')
 
 WebUI.closeBrowser()
 

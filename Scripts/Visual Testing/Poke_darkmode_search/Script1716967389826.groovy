@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/Page_PokDex/label'))
 
 WebUI.setText(findTestObject('Object Repository/Page_PokDex/input_text'), 'pika')
 
-WebUI.takeScreenshotAsCheckpoint('current_viewport')
+WebUI.takeScreenshotAsCheckpoint('search_dark_viewport')
 
 WebUI.closeBrowser()
 

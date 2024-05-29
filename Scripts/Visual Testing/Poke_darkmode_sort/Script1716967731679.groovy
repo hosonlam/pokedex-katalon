@@ -27,7 +27,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_PokDex/select_I
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Page_PokDex/li_063abra'), 0)
 
-WebUI.takeScreenshotAsCheckpoint('current_viewport')
+WebUI.takeScreenshotAsCheckpoint('sort_dark_viewport')
 
 WebUI.closeBrowser()
 

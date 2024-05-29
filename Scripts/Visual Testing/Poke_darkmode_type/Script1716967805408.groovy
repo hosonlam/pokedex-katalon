@@ -28,7 +28,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_PokDex/select_a
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Page_PokDex/div_025pikachu'), 0)
 
-WebUI.takeScreenshotAsCheckpoint('current_viewport')
+WebUI.takeScreenshotAsCheckpoint('type_dark_viewport')
 
 WebUI.closeBrowser()
 

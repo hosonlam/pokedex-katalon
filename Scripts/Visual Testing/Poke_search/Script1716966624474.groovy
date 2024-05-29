@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://pokedex-react-mui.netlify.app/')
 
 WebUI.setText(findTestObject('Object Repository/Page_PokDex/input_text'), 'pika')
 
-WebUI.takeScreenshotAsCheckpoint('current_viewport')
+WebUI.takeScreenshotAsCheckpoint('search_viewport')
 
 WebUI.closeBrowser()
 

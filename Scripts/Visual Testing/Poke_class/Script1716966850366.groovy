@@ -26,7 +26,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_PokDex/select_a
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_PokDex/img_Region_poke__logo'), 0)
 
-WebUI.takeScreenshotAsCheckpoint('current_viewport')
+WebUI.takeScreenshotAsCheckpoint('class_viewport')
 
 WebUI.closeBrowser()
 

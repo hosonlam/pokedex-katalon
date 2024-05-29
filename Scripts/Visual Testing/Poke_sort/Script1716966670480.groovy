@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://pokedex-react-mui.netlify.app/')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_PokDex/select_IDName'), 'Name', true)
 
-WebUI.takeScreenshotAsCheckpoint('current_viewport')
+WebUI.takeScreenshotAsCheckpoint('sort_viewport')
 
 WebUI.closeBrowser()
 

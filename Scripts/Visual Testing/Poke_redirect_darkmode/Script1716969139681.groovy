@@ -29,7 +29,7 @@ WebUI.switchToWindowTitle('GitHub - s1varam/pokedex: A simple Pokémon catalogue
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_GitHub - s1varampokedex A simple Pokmo_0820a5/div_s1varam                  pokedex        Public (1)'))
 
-WebUI.takeScreenshotAsCheckpoint('current_viewport')
+WebUI.takeScreenshotAsCheckpoint('redirect_dark_viewport')
 
 WebUI.closeBrowser()
 
