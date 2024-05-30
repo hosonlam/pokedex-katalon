@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Visual Testing,,,,30-05-2024 14:53:43,30-05-2024 14:53:45,2.183s,FAILED
+,,,,,,,
+Test Cases/Visual Testing/Poke_class,,,,30-05-2024 14:53:44,30-05-2024 14:53:44,0.027s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:44,30-05-2024 14:53:44,0.011s,FAILED
+,,,,,,,
+Test Cases/Visual Testing/Poke_darkmode_search,,,,30-05-2024 14:53:44,30-05-2024 14:53:44,0.028s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:44,30-05-2024 14:53:44,0.015s,FAILED
+,,,,,,,
+Test Cases/Visual Testing/Poke_darkmode_sort,,,,30-05-2024 14:53:44,30-05-2024 14:53:44,0.038s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:44,30-05-2024 14:53:44,0.016s,FAILED
+,,,,,,,
+Test Cases/Visual Testing/Poke_darkmode_type,,,,30-05-2024 14:53:45,30-05-2024 14:53:45,0.022s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:45,30-05-2024 14:53:45,0.011s,FAILED
+,,,,,,,
+Test Cases/Visual Testing/Poke_darkomde,,,,30-05-2024 14:53:45,30-05-2024 14:53:45,0.015s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:45,30-05-2024 14:53:45,0.007s,FAILED
+,,,,,,,
+Test Cases/Visual Testing/Poke_Home,,,,30-05-2024 14:53:45,30-05-2024 14:53:45,0.011s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:45,30-05-2024 14:53:45,0.005s,FAILED
+,,,,,,,
+Test Cases/Visual Testing/Poke_redirect,,,,30-05-2024 14:53:45,30-05-2024 14:53:45,0.023s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:45,30-05-2024 14:53:45,0.007s,FAILED
+,,,,,,,
+Test Cases/Visual Testing/Poke_redirect_darkmode,,,,30-05-2024 14:53:45,30-05-2024 14:53:45,0.020s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:45,30-05-2024 14:53:45,0.009s,FAILED
+,,,,,,,
+Test Cases/Visual Testing/Poke_search,,,,30-05-2024 14:53:45,30-05-2024 14:53:45,0.016s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:45,30-05-2024 14:53:45,0.007s,FAILED
+,,,,,,,
+Test Cases/Visual Testing/Poke_sort,,,,30-05-2024 14:53:45,30-05-2024 14:53:45,0.016s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:45,30-05-2024 14:53:45,0.008s,FAILED

@@ -1,0 +1,170 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+API Pokedex,,,,27-05-2024 17:39:00,27-05-2024 17:39:22,21.741s,PASSED
+,,,,,,,
+Test Cases/API/getAbilityById,,,,27-05-2024 17:39:01,27-05-2024 17:39:04,3.215s,PASSED
+"response = sendRequest(findTestObject(""REST/getAbility"", [""id"":""1""]))",,,,27-05-2024 17:39:01,27-05-2024 17:39:04,2.888s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:04,27-05-2024 17:39:04,0.014s,PASSED
+,,,,,,,
+Test Cases/API/getAbilityByName,,,,27-05-2024 17:39:04,27-05-2024 17:39:04,0.255s,PASSED
+"response = sendRequest(findTestObject(""REST/getAbility"", [""id"":""stench""]))",,,,27-05-2024 17:39:04,27-05-2024 17:39:04,0.183s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:04,27-05-2024 17:39:04,0.005s,PASSED
+,,,,,,,
+Test Cases/API/getAllPokemon,,,,27-05-2024 17:39:04,27-05-2024 17:39:04,0.292s,PASSED
+"response = sendRequest(findTestObject(""REST/getAllPokemon"", [""limit"":""100""]))",,,,27-05-2024 17:39:04,27-05-2024 17:39:04,0.236s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:04,27-05-2024 17:39:04,0.003s,PASSED
+,,,,,,,
+Test Cases/API/getAllPokemonLimit100,,,,27-05-2024 17:39:04,27-05-2024 17:39:05,0.430s,PASSED
+"response = sendRequest(findTestObject(""REST/getAllPokemon"", [""limit"":""10""]))",,,,27-05-2024 17:39:04,27-05-2024 17:39:05,0.399s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:05,27-05-2024 17:39:05,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getBerryById,,,,27-05-2024 17:39:05,27-05-2024 17:39:05,0.235s,PASSED
+"response = sendRequest(findTestObject(""REST/getBerry"", [""id"":""5""]))",,,,27-05-2024 17:39:05,27-05-2024 17:39:05,0.187s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:05,27-05-2024 17:39:05,0.004s,PASSED
+,,,,,,,
+Test Cases/API/getBerryByName,,,,27-05-2024 17:39:05,27-05-2024 17:39:05,0.223s,PASSED
+"response = sendRequest(findTestObject(""REST/getBerry"", [""id"":""cheri""]))",,,,27-05-2024 17:39:05,27-05-2024 17:39:05,0.169s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:05,27-05-2024 17:39:05,0.003s,PASSED
+,,,,,,,
+Test Cases/API/getBerryFlavorById,,,,27-05-2024 17:39:05,27-05-2024 17:39:05,0.225s,PASSED
+"response = sendRequest(findTestObject(""REST/getBerryFlavor"", [""id"":""1""]))",,,,27-05-2024 17:39:05,27-05-2024 17:39:05,0.178s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:05,27-05-2024 17:39:05,0.004s,PASSED
+,,,,,,,
+Test Cases/API/getBerryFlavorByName,,,,27-05-2024 17:39:05,27-05-2024 17:39:06,0.273s,PASSED
+"response = sendRequest(findTestObject(""REST/getBerryFlavor"", [""id"":""spicy""]))",,,,27-05-2024 17:39:05,27-05-2024 17:39:06,0.240s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:06,27-05-2024 17:39:06,0.003s,PASSED
+,,,,,,,
+Test Cases/API/getCharacteristicById,,,,27-05-2024 17:39:06,27-05-2024 17:39:06,0.248s,PASSED
+"response = sendRequest(findTestObject(""REST/getCharacteristic"", [""id"":""1""]))",,,,27-05-2024 17:39:06,27-05-2024 17:39:06,0.210s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:06,27-05-2024 17:39:06,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getContestTypesById,,,,27-05-2024 17:39:06,27-05-2024 17:39:07,1.172s,PASSED
+"response = sendRequest(findTestObject(""REST/getContestTypes"", [""id"":""1""]))",,,,27-05-2024 17:39:06,27-05-2024 17:39:07,1.138s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:07,27-05-2024 17:39:07,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getContestTypesByName,,,,27-05-2024 17:39:07,27-05-2024 17:39:07,0.193s,PASSED
+"response = sendRequest(findTestObject(""REST/getContestTypes"", [""id"":""cool""]))",,,,27-05-2024 17:39:07,27-05-2024 17:39:07,0.167s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:07,27-05-2024 17:39:07,0.001s,PASSED
+,,,,,,,
+Test Cases/API/getEggsGroupById,,,,27-05-2024 17:39:07,27-05-2024 17:39:08,0.192s,PASSED
+"response = sendRequest(findTestObject(""REST/getEggsGroup"", [""id"":""monster""]))",,,,27-05-2024 17:39:07,27-05-2024 17:39:08,0.164s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:08,27-05-2024 17:39:08,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getEggsGroupByName,,,,27-05-2024 17:39:08,27-05-2024 17:39:09,1.239s,PASSED
+"response = sendRequest(findTestObject(""REST/getEggsGroup"", [""id"":""1""]))",,,,27-05-2024 17:39:08,27-05-2024 17:39:09,1.182s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:09,27-05-2024 17:39:09,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getEncounterConditionValuesById,,,,27-05-2024 17:39:09,27-05-2024 17:39:09,0.187s,PASSED
+"response = sendRequest(findTestObject(""REST/getEncouterConditionValue"", [""id"":""swarm-yes""]))",,,,27-05-2024 17:39:09,27-05-2024 17:39:09,0.157s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:09,27-05-2024 17:39:09,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getEncounterConditionValuesByName,,,,27-05-2024 17:39:09,27-05-2024 17:39:09,0.225s,PASSED
+"response = sendRequest(findTestObject(""REST/getEncouterConditionValue"", [""id"":""1""]))",,,,27-05-2024 17:39:09,27-05-2024 17:39:09,0.201s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:09,27-05-2024 17:39:09,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getEncouterConditionById,,,,27-05-2024 17:39:09,27-05-2024 17:39:09,0.182s,PASSED
+"response = sendRequest(findTestObject(""REST/getEncounterCondition"", [""id"":""1""]))",,,,27-05-2024 17:39:09,27-05-2024 17:39:09,0.155s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:09,27-05-2024 17:39:09,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getEncouterConditionByName,,,,27-05-2024 17:39:09,27-05-2024 17:39:10,1.099s,PASSED
+"response = sendRequest(findTestObject(""REST/getEncounterCondition"", [""id"":""swarm""]))",,,,27-05-2024 17:39:09,27-05-2024 17:39:10,1.070s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:10,27-05-2024 17:39:10,0.003s,PASSED
+,,,,,,,
+Test Cases/API/getEncouterMethodById,,,,27-05-2024 17:39:10,27-05-2024 17:39:11,0.179s,PASSED
+"response = sendRequest(findTestObject(""REST/getEncounterMethod"", [""id"":""1""]))",,,,27-05-2024 17:39:10,27-05-2024 17:39:11,0.151s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:11,27-05-2024 17:39:11,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getEncouterMethodByName,,,,27-05-2024 17:39:11,27-05-2024 17:39:11,0.190s,PASSED
+"response = sendRequest(findTestObject(""REST/getEncounterMethod"", [""id"":""walk""]))",,,,27-05-2024 17:39:11,27-05-2024 17:39:11,0.155s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:11,27-05-2024 17:39:11,0.003s,PASSED
+,,,,,,,
+Test Cases/API/getEvolutionTriggerById,,,,27-05-2024 17:39:11,27-05-2024 17:39:11,0.234s,PASSED
+"response = sendRequest(findTestObject(""REST/getEvolutionTrigger"", [""id"":""1""]))",,,,27-05-2024 17:39:11,27-05-2024 17:39:11,0.202s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:11,27-05-2024 17:39:11,0.003s,PASSED
+,,,,,,,
+Test Cases/API/getEvolutionTriggerByName,,,,27-05-2024 17:39:11,27-05-2024 17:39:11,0.183s,PASSED
+"response = sendRequest(findTestObject(""REST/getEvolutionTrigger"", [""id"":""level-up""]))",,,,27-05-2024 17:39:11,27-05-2024 17:39:11,0.152s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:11,27-05-2024 17:39:11,0.003s,PASSED
+,,,,,,,
+Test Cases/API/getGenderById,,,,27-05-2024 17:39:11,27-05-2024 17:39:12,1.154s,PASSED
+"response = sendRequest(findTestObject(""REST/getGender"", [""id"":""1""]))",,,,27-05-2024 17:39:11,27-05-2024 17:39:12,1.115s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:12,27-05-2024 17:39:12,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getGenderByName,,,,27-05-2024 17:39:12,27-05-2024 17:39:13,0.452s,PASSED
+"response = sendRequest(findTestObject(""REST/getGender"", [""id"":""male""]))",,,,27-05-2024 17:39:12,27-05-2024 17:39:13,0.427s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:13,27-05-2024 17:39:13,0.001s,PASSED
+,,,,,,,
+Test Cases/API/getGenerationById,,,,27-05-2024 17:39:13,27-05-2024 17:39:13,0.228s,PASSED
+"response = sendRequest(findTestObject(""REST/getGeneration"", [""id"":""1""]))",,,,27-05-2024 17:39:13,27-05-2024 17:39:13,0.201s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:13,27-05-2024 17:39:13,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getGenerationByName,,,,27-05-2024 17:39:13,27-05-2024 17:39:13,0.237s,PASSED
+"response = sendRequest(findTestObject(""REST/getGeneration"", [""id"":""generation-i""]))",,,,27-05-2024 17:39:13,27-05-2024 17:39:13,0.209s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:13,27-05-2024 17:39:13,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getItemById,,,,27-05-2024 17:39:13,27-05-2024 17:39:14,0.243s,PASSED
+"response = sendRequest(findTestObject(""REST/getItem"", [""id"":""2""]))",,,,27-05-2024 17:39:13,27-05-2024 17:39:14,0.207s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:14,27-05-2024 17:39:14,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getItemByName,,,,27-05-2024 17:39:14,27-05-2024 17:39:15,1.134s,PASSED
+"response = sendRequest(findTestObject(""REST/getItem"", [""id"":""safari-ball""]))",,,,27-05-2024 17:39:14,27-05-2024 17:39:15,1.098s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:15,27-05-2024 17:39:15,0.003s,PASSED
+,,,,,,,
+Test Cases/API/getLocationAreaById,,,,27-05-2024 17:39:15,27-05-2024 17:39:16,1.181s,PASSED
+"response = sendRequest(findTestObject(""REST/getLocationArea"", [""id"":""5""]))",,,,27-05-2024 17:39:15,27-05-2024 17:39:16,1.142s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:16,27-05-2024 17:39:16,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getLocationAreaByName,,,,27-05-2024 17:39:16,27-05-2024 17:39:16,0.257s,PASSED
+"response = sendRequest(findTestObject(""REST/getLocationArea"", [""id"":""valley-windworks-area""]))",,,,27-05-2024 17:39:16,27-05-2024 17:39:16,0.228s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:16,27-05-2024 17:39:16,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getLocationById,,,,27-05-2024 17:39:16,27-05-2024 17:39:17,1.184s,PASSED
+"response = sendRequest(findTestObject(""REST/getLocation"", [""id"":""mt-coronet""]))",,,,27-05-2024 17:39:16,27-05-2024 17:39:17,1.163s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:17,27-05-2024 17:39:17,0.001s,PASSED
+,,,,,,,
+Test Cases/API/getLocationByName,,,,27-05-2024 17:39:17,27-05-2024 17:39:19,1.209s,PASSED
+"response = sendRequest(findTestObject(""REST/getLocation"", [""id"":""6""]))",,,,27-05-2024 17:39:17,27-05-2024 17:39:19,1.182s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:19,27-05-2024 17:39:19,0.001s,PASSED
+,,,,,,,
+Test Cases/API/getMoveById,,,,27-05-2024 17:39:19,27-05-2024 17:39:19,0.270s,PASSED
+"response = sendRequest(findTestObject(""REST/getMoves"", [""id"":""6""]))",,,,27-05-2024 17:39:19,27-05-2024 17:39:19,0.238s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:19,27-05-2024 17:39:19,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getMoveByName,,,,27-05-2024 17:39:19,27-05-2024 17:39:19,0.243s,PASSED
+"response = sendRequest(findTestObject(""REST/getMoves"", [""id"":""pound""]))",,,,27-05-2024 17:39:19,27-05-2024 17:39:19,0.215s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:19,27-05-2024 17:39:19,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getPokedexById,,,,27-05-2024 17:39:19,27-05-2024 17:39:19,0.225s,PASSED
+"response = sendRequest(findTestObject(""REST/getPokedex"", [""id"":""5""]))",,,,27-05-2024 17:39:19,27-05-2024 17:39:19,0.200s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:19,27-05-2024 17:39:19,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getPokedexByName,,,,27-05-2024 17:39:19,27-05-2024 17:39:19,0.179s,PASSED
+"response = sendRequest(findTestObject(""REST/getPokedex"", [""id"":""kanto""]))",,,,27-05-2024 17:39:19,27-05-2024 17:39:19,0.147s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:19,27-05-2024 17:39:19,0.001s,PASSED
+,,,,,,,
+Test Cases/API/getRegionById,,,,27-05-2024 17:39:19,27-05-2024 17:39:21,1.121s,PASSED
+"response = sendRequest(findTestObject(""REST/getRegion"", [""id"":""kanto""]))",,,,27-05-2024 17:39:20,27-05-2024 17:39:21,1.085s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:21,27-05-2024 17:39:21,0.001s,PASSED
+,,,,,,,
+Test Cases/API/getRegionByName,,,,27-05-2024 17:39:21,27-05-2024 17:39:21,0.220s,PASSED
+"response = sendRequest(findTestObject(""REST/getRegion"", [""id"":""1""]))",,,,27-05-2024 17:39:21,27-05-2024 17:39:21,0.195s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:21,27-05-2024 17:39:21,0.001s,PASSED
+,,,,,,,
+Test Cases/API/getSinglePokemon,,,,27-05-2024 17:39:21,27-05-2024 17:39:21,0.252s,PASSED
+"response = sendRequest(findTestObject(""REST/getSinglePokemon"", [""id"":""1""]))",,,,27-05-2024 17:39:21,27-05-2024 17:39:21,0.218s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:21,27-05-2024 17:39:21,0.001s,PASSED
+,,,,,,,
+Test Cases/API/getSinglePokemonById,,,,27-05-2024 17:39:21,27-05-2024 17:39:21,0.263s,PASSED
+"response = sendRequest(findTestObject(""REST/getSinglePokemon"", [""id"":""2""]))",,,,27-05-2024 17:39:21,27-05-2024 17:39:21,0.229s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:21,27-05-2024 17:39:21,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getSinglePokemonByName,,,,27-05-2024 17:39:21,27-05-2024 17:39:22,0.232s,PASSED
+"response = sendRequest(findTestObject(""REST/getSinglePokemon"", [""id"":""pikachu""]))",,,,27-05-2024 17:39:21,27-05-2024 17:39:22,0.208s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:22,27-05-2024 17:39:22,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getVersionById,,,,27-05-2024 17:39:22,27-05-2024 17:39:22,0.233s,PASSED
+"response = sendRequest(findTestObject(""REST/getVersion"", [""id"":""1""]))",,,,27-05-2024 17:39:22,27-05-2024 17:39:22,0.204s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:22,27-05-2024 17:39:22,0.002s,PASSED
+,,,,,,,
+Test Cases/API/getVersionByName,,,,27-05-2024 17:39:22,27-05-2024 17:39:22,0.238s,PASSED
+"response = sendRequest(findTestObject(""REST/getVersion"", [""id"":""red""]))",,,,27-05-2024 17:39:22,27-05-2024 17:39:22,0.211s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,27-05-2024 17:39:22,27-05-2024 17:39:22,0.001s,PASSED

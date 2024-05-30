@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Window App,,,,30-05-2024 15:21:06,30-05-2024 15:21:08,1.619s,PASSED
+,,,,,,,
+Test Cases/Start Notepad,,,,30-05-2024 15:21:06,30-05-2024 15:21:08,1.466s,PASSED
+"startApplicationWithTitle(""C:\Windows\System32\notepad.exe"", """")",,,,30-05-2024 15:21:06,30-05-2024 15:21:07,1.147s,PASSED
+closeApplication(),,,,30-05-2024 15:21:07,30-05-2024 15:21:08,0.082s,PASSED

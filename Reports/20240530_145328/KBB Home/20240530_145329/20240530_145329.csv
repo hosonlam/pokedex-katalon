@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KBB Home,,,,30-05-2024 14:53:39,30-05-2024 14:53:42,2.898s,FAILED
+,,,,,,,
+Test Cases/WEB/KBB Articles,,,,30-05-2024 14:53:40,30-05-2024 14:53:40,0.040s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:40,30-05-2024 14:53:40,0.019s,FAILED
+,,,,,,,
+Test Cases/WEB/KBB Best Car,,,,30-05-2024 14:53:40,30-05-2024 14:53:40,0.035s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:40,30-05-2024 14:53:40,0.017s,FAILED
+,,,,,,,
+Test Cases/WEB/KBB Car 4 Sale,,,,30-05-2024 14:53:41,30-05-2024 14:53:41,0.029s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:41,30-05-2024 14:53:41,0.017s,FAILED
+,,,,,,,
+Test Cases/WEB/KBB Feature Content,,,,30-05-2024 14:53:41,30-05-2024 14:53:41,0.035s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:41,30-05-2024 14:53:41,0.023s,FAILED
+,,,,,,,
+Test Cases/WEB/KBB Footer,,,,30-05-2024 14:53:41,30-05-2024 14:53:41,0.022s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:41,30-05-2024 14:53:41,0.012s,FAILED
+,,,,,,,
+Test Cases/WEB/KBB Header,,,,30-05-2024 14:53:41,30-05-2024 14:53:41,0.017s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:41,30-05-2024 14:53:41,0.009s,FAILED
+,,,,,,,
+Test Cases/WEB/KBB Motorscycles,,,,30-05-2024 14:53:41,30-05-2024 14:53:41,0.015s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:41,30-05-2024 14:53:41,0.008s,FAILED
+,,,,,,,
+Test Cases/WEB/KBB New Car By Make,,,,30-05-2024 14:53:41,30-05-2024 14:53:41,0.018s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:41,30-05-2024 14:53:41,0.008s,FAILED
+,,,,,,,
+Test Cases/WEB/KBB Open page,,,,30-05-2024 14:53:41,30-05-2024 14:53:42,0.028s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:42,30-05-2024 14:53:42,0.015s,FAILED
+,,,,,,,
+Test Cases/WEB/KBB Owners Button,,,,30-05-2024 14:53:42,30-05-2024 14:53:42,0.024s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:42,30-05-2024 14:53:42,0.013s,FAILED
+,,,,,,,
+Test Cases/WEB/KBB Shop Smart Section,,,,30-05-2024 14:53:42,30-05-2024 14:53:42,0.025s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:42,30-05-2024 14:53:42,0.009s,FAILED
+,,,,,,,
+Test Cases/WEB/KBB Your Car Guide,,,,30-05-2024 14:53:42,30-05-2024 14:53:42,0.022s,FAILED
+"openBrowser("""")",,,,30-05-2024 14:53:42,30-05-2024 14:53:42,0.011s,FAILED

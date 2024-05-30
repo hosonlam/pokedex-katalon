@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Window App" time="1.619" tests="1" failures="0" errors="0">
+   <testsuite name="Window App" tests="1" failures="0" errors="0" time="1.619" skipped="0" timestamp="30-05-2024T15:21:06" hostname="Admin - DESKTOP-K0UR0QI" id="Test Suites/Window App">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Code\\pokedex-katalon\\Reports\\20240530_152058\\Window App\\20240530_152059"/>
+         <property name="logFiles" value="G:\\Code\\pokedex-katalon\\Reports\\20240530_152058\\Window App\\20240530_152059\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-K0UR0QI"/>
+         <property name="hostAddress" value="192.168.240.19"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+      </properties>
+      <testcase name="Test Cases/Start Notepad" time="1.466" classname="Test Cases/Start Notepad" status="PASSED">
+         <system-out><![CDATA[30-05-2024T15:21:06 - [TEST_CASE][PASSED] - Test Cases/Start Notepad: Test Cases/Start Notepad
+
+30-05-2024T15:21:06 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Windows\System32\notepad.exe", ""): The application at location: C:\Windows\System32\notepad.exe started.
+
+30-05-2024T15:21:06 - [MESSAGE][INFO] - Starting application C:\Windows\System32\notepad.exe on the local machine at address http://127.0.0.1:4723
+
+30-05-2024T15:21:07 - [MESSAGE][PASSED] - The application at location: C:\Windows\System32\notepad.exe started.
+
+30-05-2024T15:21:07 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+30-05-2024T15:21:08 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-05-2024T15:21:06 - [TEST_SUITE][PASSED] - Window App: Test Cases/Start Notepad]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

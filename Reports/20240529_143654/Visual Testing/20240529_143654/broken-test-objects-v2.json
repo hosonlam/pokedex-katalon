@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_PokDex/select_Kanto(1-151)Johto(152-251)Hoenn(252-_77ee5a",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div[2]/div[2]/div/select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240529_143654/Visual Testing/20240529_143654/Object Repository/Page_PokDex/select_Kanto(1-151)Johto(152-251)Hoenn(252-_77ee5a_idRelative.png"
+    }
+  ]
+}

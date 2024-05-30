@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Collection API" time="132.305" tests="42" failures="0" errors="0">
+   <testsuite name="API Pokedex" tests="42" failures="0" errors="0" time="61.396" skipped="0" timestamp="30-05-2024T14:51:02" hostname="Admin - DESKTOP-K0UR0QI" id="Test Suites/API Pokedex">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Code\\pokedex-katalon\\Reports\\20240530_145052\\API Pokedex\\20240530_145053"/>
+         <property name="logFiles" value="G:\\Code\\pokedex-katalon\\Reports\\20240530_145052\\API Pokedex\\20240530_145053\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-K0UR0QI"/>
+         <property name="hostAddress" value="192.168.240.19"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+      </properties>
+      <testcase name="Test Cases/API/getAbilityById" time="4.302" classname="Test Cases/API/getAbilityById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:02 - [TEST_CASE][PASSED] - Test Cases/API/getAbilityById: Test Cases/API/getAbilityById
+
+30-05-2024T14:51:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getAbility", ["id":"1"])): Send request successfully
+
+30-05-2024T14:51:06 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\0.har
+
+30-05-2024T14:51:06 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:06 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getAbilityByName" time="1.36" classname="Test Cases/API/getAbilityByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:06 - [TEST_CASE][PASSED] - Test Cases/API/getAbilityByName: Test Cases/API/getAbilityByName
+
+30-05-2024T14:51:06 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getAbility", ["id":"stench"])): Send request successfully
+
+30-05-2024T14:51:08 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\1.har
+
+30-05-2024T14:51:08 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getAllPokemon" time="0.359" classname="Test Cases/API/getAllPokemon" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:08 - [TEST_CASE][PASSED] - Test Cases/API/getAllPokemon: Test Cases/API/getAllPokemon
+
+30-05-2024T14:51:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getAllPokemon", ["limit":"100"])): Send request successfully
+
+30-05-2024T14:51:08 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\2.har
+
+30-05-2024T14:51:08 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getAllPokemonLimit100" time="0.325" classname="Test Cases/API/getAllPokemonLimit100" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:08 - [TEST_CASE][PASSED] - Test Cases/API/getAllPokemonLimit100: Test Cases/API/getAllPokemonLimit100
+
+30-05-2024T14:51:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getAllPokemon", ["limit":"10"])): Send request successfully
+
+30-05-2024T14:51:08 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\3.har
+
+30-05-2024T14:51:08 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getBerryById" time="1.731" classname="Test Cases/API/getBerryById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:08 - [TEST_CASE][PASSED] - Test Cases/API/getBerryById: Test Cases/API/getBerryById
+
+30-05-2024T14:51:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getBerry", ["id":"5"])): Send request successfully
+
+30-05-2024T14:51:10 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\4.har
+
+30-05-2024T14:51:10 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:10 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getBerryByName" time="1.592" classname="Test Cases/API/getBerryByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:10 - [TEST_CASE][PASSED] - Test Cases/API/getBerryByName: Test Cases/API/getBerryByName
+
+30-05-2024T14:51:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getBerry", ["id":"cheri"])): Send request successfully
+
+30-05-2024T14:51:12 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\5.har
+
+30-05-2024T14:51:12 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:12 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getBerryFlavorById" time="1.692" classname="Test Cases/API/getBerryFlavorById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:12 - [TEST_CASE][PASSED] - Test Cases/API/getBerryFlavorById: Test Cases/API/getBerryFlavorById
+
+30-05-2024T14:51:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getBerryFlavor", ["id":"1"])): Send request successfully
+
+30-05-2024T14:51:13 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\6.har
+
+30-05-2024T14:51:13 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:13 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getBerryFlavorByName" time="1.293" classname="Test Cases/API/getBerryFlavorByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:13 - [TEST_CASE][PASSED] - Test Cases/API/getBerryFlavorByName: Test Cases/API/getBerryFlavorByName
+
+30-05-2024T14:51:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getBerryFlavor", ["id":"spicy"])): Send request successfully
+
+30-05-2024T14:51:15 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\7.har
+
+30-05-2024T14:51:15 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:15 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getCharacteristicById" time="0.215" classname="Test Cases/API/getCharacteristicById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:15 - [TEST_CASE][PASSED] - Test Cases/API/getCharacteristicById: Test Cases/API/getCharacteristicById
+
+30-05-2024T14:51:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getCharacteristic", ["id":"1"])): Send request successfully
+
+30-05-2024T14:51:15 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\8.har
+
+30-05-2024T14:51:15 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:15 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getContestTypesById" time="0.552" classname="Test Cases/API/getContestTypesById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:15 - [TEST_CASE][PASSED] - Test Cases/API/getContestTypesById: Test Cases/API/getContestTypesById
+
+30-05-2024T14:51:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getContestTypes", ["id":"1"])): Send request successfully
+
+30-05-2024T14:51:15 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\9.har
+
+30-05-2024T14:51:15 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:15 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getContestTypesByName" time="0.564" classname="Test Cases/API/getContestTypesByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:15 - [TEST_CASE][PASSED] - Test Cases/API/getContestTypesByName: Test Cases/API/getContestTypesByName
+
+30-05-2024T14:51:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getContestTypes", ["id":"cool"])): Send request successfully
+
+30-05-2024T14:51:16 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\10.har
+
+30-05-2024T14:51:16 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:16 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getEggsGroupById" time="0.484" classname="Test Cases/API/getEggsGroupById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:16 - [TEST_CASE][PASSED] - Test Cases/API/getEggsGroupById: Test Cases/API/getEggsGroupById
+
+30-05-2024T14:51:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getEggsGroup", ["id":"monster"])): Send request successfully
+
+30-05-2024T14:51:16 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\11.har
+
+30-05-2024T14:51:16 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:16 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getEggsGroupByName" time="1.652" classname="Test Cases/API/getEggsGroupByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:16 - [TEST_CASE][PASSED] - Test Cases/API/getEggsGroupByName: Test Cases/API/getEggsGroupByName
+
+30-05-2024T14:51:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getEggsGroup", ["id":"1"])): Send request successfully
+
+30-05-2024T14:51:18 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\12.har
+
+30-05-2024T14:51:18 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:18 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getEncounterConditionValuesById" time="0.617" classname="Test Cases/API/getEncounterConditionValuesById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:18 - [TEST_CASE][PASSED] - Test Cases/API/getEncounterConditionValuesById: Test Cases/API/getEncounterConditionValuesById
+
+30-05-2024T14:51:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getEncouterConditionValue", ["id":"swarm-yes"])): Send request successfully
+
+30-05-2024T14:51:19 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\13.har
+
+30-05-2024T14:51:19 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:19 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getEncounterConditionValuesByName" time="1.27" classname="Test Cases/API/getEncounterConditionValuesByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:19 - [TEST_CASE][PASSED] - Test Cases/API/getEncounterConditionValuesByName: Test Cases/API/getEncounterConditionValuesByName
+
+30-05-2024T14:51:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getEncouterConditionValue", ["id":"1"])): Send request successfully
+
+30-05-2024T14:51:20 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\14.har
+
+30-05-2024T14:51:20 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:20 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getEncouterConditionById" time="0.467" classname="Test Cases/API/getEncouterConditionById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:20 - [TEST_CASE][PASSED] - Test Cases/API/getEncouterConditionById: Test Cases/API/getEncouterConditionById
+
+30-05-2024T14:51:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getEncounterCondition", ["id":"1"])): Send request successfully
+
+30-05-2024T14:51:21 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\15.har
+
+30-05-2024T14:51:21 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:21 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getEncouterConditionByName" time="1.81" classname="Test Cases/API/getEncouterConditionByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:21 - [TEST_CASE][PASSED] - Test Cases/API/getEncouterConditionByName: Test Cases/API/getEncouterConditionByName
+
+30-05-2024T14:51:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getEncounterCondition", ["id":"swarm"])): Send request successfully
+
+30-05-2024T14:51:22 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\16.har
+
+30-05-2024T14:51:22 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:22 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getEncouterMethodById" time="2.377" classname="Test Cases/API/getEncouterMethodById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:22 - [TEST_CASE][PASSED] - Test Cases/API/getEncouterMethodById: Test Cases/API/getEncouterMethodById
+
+30-05-2024T14:51:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getEncounterMethod", ["id":"1"])): Send request successfully
+
+30-05-2024T14:51:25 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\17.har
+
+30-05-2024T14:51:25 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:25 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getEncouterMethodByName" time="1.606" classname="Test Cases/API/getEncouterMethodByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:25 - [TEST_CASE][PASSED] - Test Cases/API/getEncouterMethodByName: Test Cases/API/getEncouterMethodByName
+
+30-05-2024T14:51:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getEncounterMethod", ["id":"walk"])): Send request successfully
+
+30-05-2024T14:51:26 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\18.har
+
+30-05-2024T14:51:26 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:26 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getEvolutionTriggerById" time="1.753" classname="Test Cases/API/getEvolutionTriggerById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:26 - [TEST_CASE][PASSED] - Test Cases/API/getEvolutionTriggerById: Test Cases/API/getEvolutionTriggerById
+
+30-05-2024T14:51:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getEvolutionTrigger", ["id":"1"])): Send request successfully
+
+30-05-2024T14:51:28 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\19.har
+
+30-05-2024T14:51:28 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:28 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getEvolutionTriggerByName" time="2.658" classname="Test Cases/API/getEvolutionTriggerByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:28 - [TEST_CASE][PASSED] - Test Cases/API/getEvolutionTriggerByName: Test Cases/API/getEvolutionTriggerByName
+
+30-05-2024T14:51:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getEvolutionTrigger", ["id":"level-up"])): Send request successfully
+
+30-05-2024T14:51:31 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\20.har
+
+30-05-2024T14:51:31 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:31 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getGenderById" time="0.606" classname="Test Cases/API/getGenderById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:31 - [TEST_CASE][PASSED] - Test Cases/API/getGenderById: Test Cases/API/getGenderById
+
+30-05-2024T14:51:31 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getGender", ["id":"1"])): Send request successfully
+
+30-05-2024T14:51:31 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\21.har
+
+30-05-2024T14:51:31 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:31 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getGenderByName" time="1.883" classname="Test Cases/API/getGenderByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:31 - [TEST_CASE][PASSED] - Test Cases/API/getGenderByName: Test Cases/API/getGenderByName
+
+30-05-2024T14:51:31 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getGender", ["id":"male"])): Send request successfully
+
+30-05-2024T14:51:33 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\22.har
+
+30-05-2024T14:51:33 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:33 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getGenerationById" time="0.238" classname="Test Cases/API/getGenerationById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:33 - [TEST_CASE][PASSED] - Test Cases/API/getGenerationById: Test Cases/API/getGenerationById
+
+30-05-2024T14:51:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getGeneration", ["id":"1"])): Send request successfully
+
+30-05-2024T14:51:34 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\23.har
+
+30-05-2024T14:51:34 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:34 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getGenerationByName" time="0.609" classname="Test Cases/API/getGenerationByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:34 - [TEST_CASE][PASSED] - Test Cases/API/getGenerationByName: Test Cases/API/getGenerationByName
+
+30-05-2024T14:51:34 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getGeneration", ["id":"generation-i"])): Send request successfully
+
+30-05-2024T14:51:34 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\24.har
+
+30-05-2024T14:51:34 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:34 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getItemById" time="2.42" classname="Test Cases/API/getItemById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:34 - [TEST_CASE][PASSED] - Test Cases/API/getItemById: Test Cases/API/getItemById
+
+30-05-2024T14:51:34 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getItem", ["id":"2"])): Send request successfully
+
+30-05-2024T14:51:37 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\25.har
+
+30-05-2024T14:51:37 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:37 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getItemByName" time="1.563" classname="Test Cases/API/getItemByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:37 - [TEST_CASE][PASSED] - Test Cases/API/getItemByName: Test Cases/API/getItemByName
+
+30-05-2024T14:51:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getItem", ["id":"safari-ball"])): Send request successfully
+
+30-05-2024T14:51:38 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\26.har
+
+30-05-2024T14:51:38 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:38 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:38 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getLocationAreaById" time="0.525" classname="Test Cases/API/getLocationAreaById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:38 - [TEST_CASE][PASSED] - Test Cases/API/getLocationAreaById: Test Cases/API/getLocationAreaById
+
+30-05-2024T14:51:38 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getLocationArea", ["id":"5"])): Send request successfully
+
+30-05-2024T14:51:39 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\27.har
+
+30-05-2024T14:51:39 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:39 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getLocationAreaByName" time="3.221" classname="Test Cases/API/getLocationAreaByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:39 - [TEST_CASE][PASSED] - Test Cases/API/getLocationAreaByName: Test Cases/API/getLocationAreaByName
+
+30-05-2024T14:51:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getLocationArea", ["id":"valley-windworks-area"])): Send request successfully
+
+30-05-2024T14:51:42 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\28.har
+
+30-05-2024T14:51:42 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:42 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getLocationById" time="2.613" classname="Test Cases/API/getLocationById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:42 - [TEST_CASE][PASSED] - Test Cases/API/getLocationById: Test Cases/API/getLocationById
+
+30-05-2024T14:51:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getLocation", ["id":"mt-coronet"])): Send request successfully
+
+30-05-2024T14:51:45 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\29.har
+
+30-05-2024T14:51:45 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:45 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getLocationByName" time="3.599" classname="Test Cases/API/getLocationByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:45 - [TEST_CASE][PASSED] - Test Cases/API/getLocationByName: Test Cases/API/getLocationByName
+
+30-05-2024T14:51:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getLocation", ["id":"6"])): Send request successfully
+
+30-05-2024T14:51:48 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\30.har
+
+30-05-2024T14:51:48 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:48 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getMoveById" time="1.6" classname="Test Cases/API/getMoveById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:48 - [TEST_CASE][PASSED] - Test Cases/API/getMoveById: Test Cases/API/getMoveById
+
+30-05-2024T14:51:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getMoves", ["id":"6"])): Send request successfully
+
+30-05-2024T14:51:50 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\31.har
+
+30-05-2024T14:51:50 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:50 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getMoveByName" time="1.234" classname="Test Cases/API/getMoveByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:50 - [TEST_CASE][PASSED] - Test Cases/API/getMoveByName: Test Cases/API/getMoveByName
+
+30-05-2024T14:51:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getMoves", ["id":"pound"])): Send request successfully
+
+30-05-2024T14:51:51 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\32.har
+
+30-05-2024T14:51:51 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:51 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getPokedexById" time="3.214" classname="Test Cases/API/getPokedexById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:51 - [TEST_CASE][PASSED] - Test Cases/API/getPokedexById: Test Cases/API/getPokedexById
+
+30-05-2024T14:51:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getPokedex", ["id":"5"])): Send request successfully
+
+30-05-2024T14:51:54 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\33.har
+
+30-05-2024T14:51:54 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:54 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getPokedexByName" time="0.715" classname="Test Cases/API/getPokedexByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:54 - [TEST_CASE][PASSED] - Test Cases/API/getPokedexByName: Test Cases/API/getPokedexByName
+
+30-05-2024T14:51:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getPokedex", ["id":"kanto"])): Send request successfully
+
+30-05-2024T14:51:55 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\34.har
+
+30-05-2024T14:51:55 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:55 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getRegionById" time="1.532" classname="Test Cases/API/getRegionById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:55 - [TEST_CASE][PASSED] - Test Cases/API/getRegionById: Test Cases/API/getRegionById
+
+30-05-2024T14:51:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getRegion", ["id":"kanto"])): Send request successfully
+
+30-05-2024T14:51:57 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\35.har
+
+30-05-2024T14:51:57 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:57 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getRegionByName" time="0.518" classname="Test Cases/API/getRegionByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:57 - [TEST_CASE][PASSED] - Test Cases/API/getRegionByName: Test Cases/API/getRegionByName
+
+30-05-2024T14:51:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getRegion", ["id":"1"])): Send request successfully
+
+30-05-2024T14:51:57 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\36.har
+
+30-05-2024T14:51:57 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:57 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getSinglePokemon" time="0.285" classname="Test Cases/API/getSinglePokemon" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:57 - [TEST_CASE][PASSED] - Test Cases/API/getSinglePokemon: Test Cases/API/getSinglePokemon
+
+30-05-2024T14:51:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getSinglePokemon", ["id":"1"])): Send request successfully
+
+30-05-2024T14:51:57 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\37.har
+
+30-05-2024T14:51:57 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:51:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:51:57 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getSinglePokemonById" time="2.246" classname="Test Cases/API/getSinglePokemonById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:51:57 - [TEST_CASE][PASSED] - Test Cases/API/getSinglePokemonById: Test Cases/API/getSinglePokemonById
+
+30-05-2024T14:51:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getSinglePokemon", ["id":"2"])): Send request successfully
+
+30-05-2024T14:52:00 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\38.har
+
+30-05-2024T14:52:00 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:52:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:52:00 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getSinglePokemonByName" time="0.238" classname="Test Cases/API/getSinglePokemonByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:52:00 - [TEST_CASE][PASSED] - Test Cases/API/getSinglePokemonByName: Test Cases/API/getSinglePokemonByName
+
+30-05-2024T14:52:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getSinglePokemon", ["id":"pikachu"])): Send request successfully
+
+30-05-2024T14:52:00 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\39.har
+
+30-05-2024T14:52:00 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:52:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:52:00 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getVersionById" time="1.463" classname="Test Cases/API/getVersionById" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:52:00 - [TEST_CASE][PASSED] - Test Cases/API/getVersionById: Test Cases/API/getVersionById
+
+30-05-2024T14:52:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getVersion", ["id":"1"])): Send request successfully
+
+30-05-2024T14:52:01 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\40.har
+
+30-05-2024T14:52:01 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:52:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:52:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/getVersionByName" time="1.599" classname="Test Cases/API/getVersionByName" status="PASSED">
+         <system-out><![CDATA[30-05-2024T14:52:01 - [TEST_CASE][PASSED] - Test Cases/API/getVersionByName: Test Cases/API/getVersionByName
+
+30-05-2024T14:52:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST/getVersion", ["id":"red"])): Send request successfully
+
+30-05-2024T14:52:03 - [MESSAGE][INFO] - HAR: G:\Code\pokedex-katalon\Reports\20240530_145052\API Pokedex\20240530_145053\requests\main\41.har
+
+30-05-2024T14:52:03 - [MESSAGE][PASSED] - Send request successfully
+
+30-05-2024T14:52:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-05-2024T14:52:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-05-2024T14:51:02 - [TEST_SUITE][PASSED] - API Pokedex: Test Cases/API/getVersionByName]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
