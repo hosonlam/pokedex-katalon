@@ -25,7 +25,7 @@ jobs:
           PASSWORD: 6468d07a-0104-4298-897f-e469ec1fed24
           PROJECT_ID: 1505903
           TYPE: katalon
-          REPORT_PATH: pokedex-katalon\Reports
+          REPORT_PATH: ./Reports
       
       - name: Katalon Report Uploader
         uses: katalon-studio/report-uploader@v0.0.8
@@ -33,7 +33,7 @@ jobs:
           PASSWORD: 6468d07a-0104-4298-897f-e469ec1fed24
           PROJECT_ID: 1505903
           TYPE: junit
-          REPORT_PATH: pokedex-katalon\Reports
+          REPORT_PATH: ./Reports
       
       - name: Katalon Report Uploader
         uses: katalon-studio/report-uploader@v0.0.8
@@ -41,4 +41,4 @@ jobs:
           PASSWORD: 6468d07a-0104-4298-897f-e469ec1fed24
           PROJECT_ID: 1505903
           TYPE: katalon_recorder
-          REPORT_PATH: pokedex-katalon\Reports
+          REPORT_PATH: ./Reports
