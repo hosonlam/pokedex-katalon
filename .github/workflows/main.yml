@@ -1,0 +1,44 @@
+name: Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      #- '**'
+      - 'main'
+
+concurrency:
+  group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./
+    steps:
+      - name: Katalon Report Uploader
+        uses: katalon-studio/report-uploader@v0.0.8
+        env:
+          PASSWORD: 6468d07a-0104-4298-897f-e469ec1fed24
+          PROJECT_ID: 1505903
+          TYPE: katalon
+          REPORT_PATH: pokedex-katalon\Reports
+      
+      - name: Katalon Report Uploader
+        uses: katalon-studio/report-uploader@v0.0.8
+        env:
+          PASSWORD: 6468d07a-0104-4298-897f-e469ec1fed24
+          PROJECT_ID: 1505903
+          TYPE: junit
+          REPORT_PATH: pokedex-katalon\Reports
+      
+      - name: Katalon Report Uploader
+        uses: katalon-studio/report-uploader@v0.0.8
+        env:
+          PASSWORD: 6468d07a-0104-4298-897f-e469ec1fed24
+          PROJECT_ID: 1505903
+          TYPE: katalon_recorder
+          REPORT_PATH: pokedex-katalon\Reports
