@@ -21,19 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.kbb.com/')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Shop SmartLet Kelley Help You Shop Like_3c8d09'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book/div_Shop SmartLet Kelley Help You Shop Like_3c8d09'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Start with Your Current Car Get an esti_fc61f8'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book/div_Start with Your Current Car Get an esti_fc61f8'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Recommended for You2024 Chevrolet Silve_87628b'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book/div_Recommended for You2024 Chevrolet Silve_87628b'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Get an Instant Cash OfferUse it to purc_7f8737'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book/div_Get an Instant Cash OfferUse it to purc_7f8737'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Know Your ScoreCar shopping Check your _71532d'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book/div_Know Your ScoreCar shopping Check your _71532d'), 
     0)
 
 WebUI.closeBrowser()

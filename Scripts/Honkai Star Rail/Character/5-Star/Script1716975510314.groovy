@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://honkai-builds.com/nhan-vat')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Tng Hp Nhn Vt Honkai Star Rail - Honka_8a0d51/div_Boothill'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Tng/div_Boothill'))
 
 WebUI.closeBrowser()
 

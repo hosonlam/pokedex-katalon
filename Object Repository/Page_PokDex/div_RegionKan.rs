@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_RegionKanto(1-151)Johto(152-251)Hoenn(2_ce6932</name>
+   <name>div_RegionKan</name>
    <tag></tag>
    <elementGuidId>01c42c8b-0508-4a5e-8b1f-074277a994c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.filter__items</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

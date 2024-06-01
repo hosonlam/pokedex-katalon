@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://honkai-builds.com/nhan-vat/boothill')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Hng Dn Cch Build Boothill - Honkai Builds/h1_Boothill'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Hng/h1_Boothill'), 
     'Boothill')
 
 WebUI.closeBrowser()

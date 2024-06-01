@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://honkai-builds.com/non-anh-sang')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tng Hp Nn nh Sng Honkai Star Rail/div_Sinh Si'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tng_a/div_Sinh Si'), 0)
 
 WebUI.closeBrowser()
 

@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.kbb.com/')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_The Latest from Our ExpertsMore article_d3a796'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book/div_The Latest from Our ExpertsMore article_d3a796'), 
     0)
 
 WebUI.closeBrowser()

@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.kbb.com/')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Shop Best CarsSponsored2024 Honda Prolo_b0e4cf'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book/div_Shop Best CarsSponsored2024 Honda Prolo_b0e4cf'), 
     0)
 
 WebUI.closeBrowser()

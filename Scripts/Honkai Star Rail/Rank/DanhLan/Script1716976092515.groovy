@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://honkai-builds.com/xep-hang')
 
-WebUI.click(findTestObject('Object Repository/Page_Bng Xp Hng Nhn Vt Honkai Star Rail Mi Nht/div_DPS nh Lan'))
+WebUI.click(findTestObject('Object Repository/Page_Bng/div_DPS nh Lan'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Bng Xp Hng Nhn Vt Honkai Star Rail Mi Nht/div_Acheron (2)'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Bng/div_Acheron (2)'), 
     0)
 
 WebUI.closeBrowser()

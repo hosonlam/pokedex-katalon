@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://honkai-builds.com/non-anh-sang')
 
-WebUI.click(findTestObject('Object Repository/Page_Tng Hp Nn nh Sng Honkai Star Rail/img_Xo Hiu ng Xu_jet-tabs__label-image'))
+WebUI.click(findTestObject('Object Repository/Page_Tng_a/img_Xo Hiu ng Xu_jet-tabs__label-image'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tng Hp Nn nh Sng Honkai Star Rail/div_Ngy Ngn H Sp'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tng_a/div_Ngy Ngn H Sp'), 
     0)
 
 WebUI.closeBrowser()

@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://honkai-builds.com/nhan-vat')
 
-WebUI.click(findTestObject('Object Repository/Page_Tng Hp Nhn Vt Honkai Star Rail - Honka_8a0d51/img_Nhn Vt_jet-tabs__label-image (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Tng/img_Nhn Vt_jet-tabs__label-image (1)'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Tng Hp Nhn Vt Honkai Star Rail - Honka_8a0d51/div_Boothill (1)'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Tng/div_Boothill (1)'))
 
 WebUI.closeBrowser()
 

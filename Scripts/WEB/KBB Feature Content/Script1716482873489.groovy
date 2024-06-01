@@ -21,12 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.kbb.com/')
 
-WebUI.rightClick(findTestObject('Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Featured Content2024 Ford F150 Super Ca_86f03b'))
+WebUI.rightClick(findTestObject('Object Repository/Page_Kelley Blue Book/div_Featured Content2024 Ford F150 Super Ca_86f03b'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Featured Content2024 Ford F150 Super Ca_80d5f7'), 
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book/div_Featured Content2024 Ford F150 Super Ca_80d5f7'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Featured Content2024 Ford F150 Super Ca_80d5f7'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kelley Blue Book/div_Featured Content2024 Ford F150 Super Ca_80d5f7'), 
     0)
 
 WebUI.closeBrowser()

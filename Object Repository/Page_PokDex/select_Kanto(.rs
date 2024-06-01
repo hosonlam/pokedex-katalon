@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Kanto(1-151)Johto(152-251)Hoenn(252-_77ee5a (1)</name>
+   <name>select_Kanto(</name>
    <tag></tag>
-   <elementGuidId>f00bf0da-1ee1-45b8-821d-7484df5e813b</elementGuidId>
+   <elementGuidId>faa6f96b-db9c-4958-a6a9-0165960d1bf7</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div[2]/div/select</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>select</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[2]/div/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>65f04480-6693-4197-89ea-afa2b1c9f54a</webElementGuid>
+      <webElementGuid>b087389d-b770-4430-aaf6-fbaed3de5863</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Kanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)</value>
-      <webElementGuid>13d34ea1-b352-45e9-82cb-50f1db79c38c</webElementGuid>
+      <webElementGuid>1cea6940-c496-4744-8f12-3d3804508c32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;app__container&quot;]/div[@class=&quot;filter__container noselect&quot;]/div[@class=&quot;filter__items&quot;]/select[1]</value>
-      <webElementGuid>f407f237-0f66-43d0-bf91-6bd522d00da8</webElementGuid>
+      <webElementGuid>998fd3f5-5f4d-485c-b1ee-50e032738bea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/div[2]/div/select</value>
-      <webElementGuid>16d63589-7d40-4c12-ab43-392d9cabff94</webElementGuid>
+      <webElementGuid>5ba2bb0c-d8fd-401f-9f3b-7e579449acc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Region'])[1]/following::select[1]</value>
-      <webElementGuid>2fbdd773-18e6-4e30-b9b9-7a6030c9193d</webElementGuid>
+      <webElementGuid>760c6127-de8d-4f56-a618-fd4e1812a9cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/preceding::select[1]</value>
-      <webElementGuid>72a30b45-a41d-4ecf-b420-27f6297dc8f7</webElementGuid>
+      <webElementGuid>4767e069-9c6e-476d-bbc3-cb7675d862cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by'])[1]/preceding::select[2]</value>
-      <webElementGuid>6670d9c7-76b0-4edf-b5de-3d9fc8986845</webElementGuid>
+      <webElementGuid>4b8ab08d-7788-41ad-b2bb-1be84e85c5d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>4d96204f-78ad-48ff-815b-774eb7b3b36a</webElementGuid>
+      <webElementGuid>019c0431-2a59-4877-8699-20ad765e4f0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[(text() = 'Kanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)' or . = 'Kanto (1-151)Johto (152-251)Hoenn (252-386)Sinnoh (387-494)Unova (495-649)Kalos (650-721)Alola (722-809)Galar (810-898)')]</value>
-      <webElementGuid>ce1d7826-ab41-458a-b984-0d2ef259e4ca</webElementGuid>
+      <webElementGuid>ee6c02ee-31ac-48ed-9c02-5fa7d8fba0c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

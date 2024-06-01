@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.kbb.com/')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/header_Accessible Menu - Main MenuCar Value_119c48'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Kelley Blue Book/header_Accessible Menu - Main MenuCar Value_119c48'))
 
 WebUI.closeBrowser()
 

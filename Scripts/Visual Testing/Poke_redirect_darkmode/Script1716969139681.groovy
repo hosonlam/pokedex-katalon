@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Page_PokDex/div_Region_pokeball__b
 
 WebUI.switchToWindowTitle('GitHub - s1varam/pokedex: A simple Pokémon catalogue, built with React, Material-UI and PokéAPI.')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_GitHub - s1varampokedex A simple Pokmo_0820a5/div_s1varam                  pokedex        Public (1)'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_GitHub/div_s1varam                  pokedex        Public (1)'))
 
 WebUI.takeScreenshotAsCheckpoint('redirect_dark_viewport')
 
